@@ -6,7 +6,7 @@ export default function StoreContextProvider({ children }) {
   const [cartItems, setCartItems] = useState({});
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://food-deliveryapp-backend.onrender.com";
 
   // const addToCart = function() {
   //
