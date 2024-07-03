@@ -1,0 +1,11 @@
+.Food-Display h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+
+@media (max-width: 1050px) {
+  .Food-Display-List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

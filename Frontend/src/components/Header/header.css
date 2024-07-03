@@ -1,0 +1,61 @@
+.Header-Section {
+  height: 34vw;
+  margin: 30px auto;
+  background: url("../../assets/frontend_assets/header_img.png") no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.Header-Containts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 10%;
+  left: 6vw;
+}
+
+.Header-Containts h1 {
+  font-size: max(4.5vw, 22px);
+}
+
+.Header-Containts p {
+  font-size: 1vw;
+}
+
+@media (max-width: 1050px) {
+  .Header-Section {
+    height: 38vw;
+  }
+  .Header-Containts {
+    max-width: 45%;
+  }
+  .Header-Containts p {
+    display: none;
+  }
+  .Header-Containts h1 {
+    font-size: 8vh;
+  }
+  .Header-Containts button {
+    height: 3vw;
+    font-size: 1.8vh;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 750px) {
+  .Header-Containts {
+    max-width: 55%;
+  }
+  .Header-Containts h1 {
+    font-size: 4vh;
+  }
+  .Header-Containts p {
+    display: none;
+  }
+  .Header-Containts button {
+    height: 5vw;
+  }
+}

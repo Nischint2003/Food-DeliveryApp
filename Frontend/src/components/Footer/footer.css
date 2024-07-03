@@ -1,0 +1,11 @@
+@media (max-width: 1050px) {
+  .Footer .Social-Media-Icons {
+    gap: 1vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .Footer .Social-Media-Icons {
+    gap: 1vw;
+  }
+}

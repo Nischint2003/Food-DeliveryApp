@@ -1,0 +1,38 @@
+.Explore-Menu h1 {
+  font-size: 4.2vh;
+}
+
+.Explore-Menu-List {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+.Explore-Menu-List::-webkit-scrollbar {
+  display: none;
+}
+
+.Explore-Menu-List-Item p {
+  font-size: 2.8vh;
+}
+
+.Explore-Menu-List-Item .active {
+  border: 4px solid tomato;
+  border-radius: 50%;
+}
+
+@media (max-width: 1050px) {
+  .Explore-Menu-List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .Explore-Menu-List {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
