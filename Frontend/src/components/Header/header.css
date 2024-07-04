@@ -39,9 +39,10 @@
     font-size: 8vh;
   }
   .Header-Containts button {
-    height: 3vw;
+    height: 3.5vw;
     font-size: 1.8vh;
     margin-bottom: 5%;
+    padding: 1vh 2vh;
   }
 }
 
@@ -50,12 +51,15 @@
     max-width: 55%;
   }
   .Header-Containts h1 {
-    font-size: 4vh;
+    font-size: 3.2vh;
   }
   .Header-Containts p {
     display: none;
   }
   .Header-Containts button {
-    height: 5vw;
+    height: 3%;
+    font-size: 0.9vh;
+    margin-bottom: 2.5%;
+    padding: 0.5vh 1vh;
   }
 }

@@ -1,13 +1,35 @@
+.Explore-Menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Explore-Menu-List-Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .Explore-Menu h1 {
   font-size: 4.2vh;
 }
 
+.Explore-Menu .text {
+  max-width: 60%;
+}
+
 .Explore-Menu-List {
   display: flex;
-  justify-content: space-between;
-  margin-top: 32px;
-  overflow-x: scroll;
+  gap: 30px;
+  justify-content: flex-start;
   text-align: center;
+  margin: 20px 0px;
+  overflow-x: scroll;
+}
+
+.Explore-Menu-List-Item {
+  flex: 0 0 auto;
 }
 
 .Explore-Menu-List::-webkit-scrollbar {
@@ -24,15 +46,8 @@
 }
 
 @media (max-width: 1050px) {
-  .Explore-Menu-List {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 750px) {
-  .Explore-Menu-List {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .Explore-Menu .text {
+    max-width: 100%;
+    font-size: 14px;
   }
 }

@@ -3,7 +3,6 @@ import "./loginpopup.css";
 import { StoreContext } from "../../context/StoreContext";
 import { assets } from "../../assets/frontend_assets/assets";
 import axios from "axios";
-// import toast from "";
 
 export default function LoginPopUp({ setShowLogin }) {
   const [currState, setCurrState] = useState("Sign Up");

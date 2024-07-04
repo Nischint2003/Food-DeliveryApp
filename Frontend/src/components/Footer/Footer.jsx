@@ -8,8 +8,8 @@ export default function Footer() {
       className="Footer flex flex-col w-full bg-slate-600 text-white"
       id="Footer"
     >
-      <div className="Secton-1 m-10  flex justify-between ">
-        <div className="col-1 w-2/5">
+      <div className="Secton-1 my-10 px-5  flex flex-col gap-y-5 items-center sm:flex-row sm:gap-x-20 sm:items-start">
+        <div className="col-1">
           <img src={assets.logo} alt="logo" />
           <p className="my-5">
             Savor the flavor! Order now and get your favorite dishes delivered
@@ -22,7 +22,7 @@ export default function Footer() {
             <img src={assets.linkedin_icon} alt="linkkedin" />
           </div>
         </div>
-        <div className="w-1/5 ">
+        <div className="w-full lg:w-1/3 lg:flex lg:flex-col">
           <h2 className="font-bold">COMPANY</h2>
           <ul className="mt-5 cursor-pointer">
             <li>Home</li>
@@ -31,7 +31,7 @@ export default function Footer() {
             <li>Privacy Policy</li>
           </ul>
         </div>
-        <div className="Get-Touch w-1/6">
+        <div className="Get-Touch w-full lg:w-1/3 lg:flex lg:flex-col">
           <h2 className="font-bold mb-5">GET IN TOUCH</h2>
           <p>+91-9437008641</p>
           <p>contact@tomato.com</p>
