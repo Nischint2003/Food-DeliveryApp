@@ -1,8 +1,9 @@
 import { useNavigate, useSearchParams } from "react-router-dom";
 import "./verify.css";
 import axios from "axios";
-import { toast } from 'react-toastify';
+
 import React, { useContext, useEffect } from "react";
+
 import { StoreContext } from "../../context/StoreContext";
 
 export default function Verify() {
@@ -17,12 +18,12 @@ export default function Verify() {
       orderId,
     });
     if (response.data.success) {
-      toast.success("Order Placed");
       navigate("/myorders");
 
     } else {
+      
       navigate("/");
-      toast.error("Error Placing Order");
+      
     }
   };
 
